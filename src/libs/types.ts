@@ -1,10 +1,10 @@
 interface Item {
   userId: string;
-  itemId : string;
-  product_name : string;
+  itemId: string;
+  product_name: string;
   unit_price: number;
   quantity: number;
-  category: 'Electronics'|'Clothing'|'Household'|'Others';
+  category: "Electronics" | "Clothing" | "Household" | "Others";
 }
 export type { Item };
 
